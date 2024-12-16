@@ -1,6 +1,10 @@
-# Save Restricted Bot
+# VJ Save Restricted Bot
 
-*A Telegram Bot, Which can send you restricted content by it's post link*
+*A Telegram Bot, Which can send you restricted content by it's post link with <b>login feature</b>*
+
+---
+
+<b>Watch Video Tutorial - [Click Here](https://youtu.be/BFEvSX5vIMg)</b>
 
 ---
 
@@ -8,14 +12,27 @@
 
 ## Variables
 
-- `HASH` Your API Hash from my.telegram.org
-- `ID` Your API ID from my.telegram.org
-- `TOKEN` Your bot token from [BotFather](https://telegram.me/BotFather)
-- `STRING` Your pyrogram session string, you can get it from [VJ String Session Generator Bot](https://telegram.me/VJStringSessionBot)
+- `API_HASH` : Your API Hash From [Telegram Website](https://my.telegram.org)
+- `API_ID` : Your API ID From [Telegram Website](https://my.telegram.org)
+- `BOT_TOKEN` : Your Bot Token From [BotFather](https://telegram.me/BotFather)
+- `ADMINS` : Your Admin Id For Broadcasting Message
+- `DB_URI` : Your Mongodb Database Url From [Mongodb](https://mongodb.com) Watch [Video Tutorial](https://youtu.be/DAHRmFdw99o)
+- `ERROR_MESSAGE` : Set True Or False, If You Want Error Message Then True Else False.
 
 ---
 
-# Usage
+## Commands
+
+- `/start` : Check Bot Is Working Or Not
+- `/help` : Check How To Use Bot
+- `/login` : Login Your Telegram String Session 
+- `/logout` : Logout Your Session 
+- `/cancel` : Cancel Your Any Ongoing Task
+- `/broadcast` : Broadcast Message To User (Admin Only)
+
+---
+
+## Usage
 
 __FOR PUBLIC CHATS__
 
@@ -49,7 +66,9 @@ https://t.me/c/xxxx/101 - 120
 
 _note that space in between doesn't matter_
 
-### Credits
+---
 
-- [BipinKrish](https://github.com/bipinkrish)
-- [Tech VJ](https://telegram.dog/Kingvj01)
+## Credits
+
+- <b>Thanks To [BipinKrish](https://github.com/bipinkrish) For Base Repo
+- Thanks To [Tech VJ](https://telegram.dog/Kingvj01) For Modify & Added Login Feature.</b>
